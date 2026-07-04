@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Singapore Columbarium &amp; Funeral Wishes — Free Family Checklist</title>
   <meta name="description" content="A calm, free checklist to help Singapore families record wishes, compare public and private columbarium and ashes options, and know what to ask before paying anyone." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -13,8 +16,10 @@
     <div class="wrap">
       <a class="brand" href="index.html">
         <svg class="mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <circle cx="16" cy="16" r="15" fill="#e9f1ee" stroke="#2f6f5e"/>
-          <path d="M16 7c3 3 5 5.5 5 9a5 5 0 11-10 0c0-3.5 2-6 5-9z" fill="#2f6f5e"/>
+          <circle cx="16" cy="16" r="15" fill="#e9f0ea" stroke="#285043"/>
+          <path d="M16 8c2.4 2.6 3.6 4.8 3.6 7.2a3.6 3.6 0 11-7.2 0c0-2.4 1.2-4.6 3.6-7.2z" fill="#285043"/>
+          <path d="M11 13.2c.7 2.2 2.4 3.7 4.9 4.4-1.9.8-3.9.4-5-.8-1.1-1.1-1.1-2.5.1-3.6z" fill="#8fb4a4"/>
+          <path d="M21 13.2c-.7 2.2-2.4 3.7-4.9 4.4 1.9.8 3.9.4 5-.8 1.1-1.1 1.1-2.5-.1-3.6z" fill="#8fb4a4"/>
         </svg>
         <span>Family Wishes SG<small>Calm, independent planning guidance</small></span>
       </a>
@@ -40,6 +45,38 @@
     <section>
       <p class="lead">You do not need to decide everything today.</p>
       <p>This checklist helps you record the basics first — what you prefer, what your family should know, and what to ask before choosing a columbarium, funeral package, or ashes arrangement.</p>
+    </section>
+
+    <section>
+      <div class="ai-prompt">
+        <p class="eyebrow">Prefer to be guided?</p>
+        <h2>Give this to your own AI assistant</h2>
+        <p>Using ChatGPT, Claude, Gemini or any assistant on your phone? Copy the prompt below, paste it in, and it will gently walk your family through this checklist one step at a time — in your own words, at your own pace.</p>
+        <div class="prompt-box">
+          <button type="button" class="copy-btn" id="copyPrompt" aria-label="Copy the prompt">Copy</button>
+          <pre id="aiPrompt">You are a calm, patient family-planning guide helping me, and my family in Singapore, think through funeral and columbarium wishes — before anything urgent happens. This is emotionally sensitive: be gentle, never morbid, never pushy, and never rush me.
+
+Walk me through the steps below ONE AT A TIME. Ask the questions in each step, wait for my answer, reflect it back simply, then move on. If I don't know something, that's okay — explain the options in plain language and let me skip and come back.
+
+Steps:
+1. My current stage — early planning, comparing options, someone unwell, after a passing, or after cremation.
+2. What my family should know first — religion or belief, rituals that matter, things to avoid, who to involve, any pantang concerns.
+3. Ashes and resting-place options to compare — home, public columbarium, private columbarium, temple or church, sea or inland scattering, family niche. Help me weigh visiting convenience, religious fit, family agreement, and cost.
+4. Public vs private "right fit" — help me see when a public option is enough and when private features matter, without pushing either.
+5. Price and transparency questions to ask ANY provider before paying — what's included and excluded, hidden fees, GST, payment terms, transfer rules, and prepaid-plan protection.
+6. A gentle script to raise this with my parents or family when it feels too early or pantang.
+7. Legal and admin basics in Singapore I shouldn't forget — LPA, CPF nomination, AMD/ACP, HOTA status, a will, and where my family can find my accounts and documents.
+
+Rules:
+- Be warm and brief. One step at a time.
+- Never pressure me toward buying anything.
+- When we finish, summarise my answers as a simple "family wishes" note I can save.
+- Important: you may be out of date on Singapore prices, government processes, or timelines — remind me to confirm those with official sources (MyLegacy@LifeSG, NEA, MOH, CPF, CCCS/CASE).
+
+Begin by gently asking me Step 1.</pre>
+        </div>
+        <p class="fineprint">It's just a helper. For anything official — prices, dates, or government steps — always confirm with the real source.</p>
+      </div>
     </section>
 
     <section>
@@ -202,5 +239,32 @@
       <a href="avoid-scams.html">How to avoid funeral scams</a> · <a href="index.html">Home</a>
     </div>
   </footer>
+
+  <script>
+    (function () {
+      var btn = document.getElementById('copyPrompt');
+      var pre = document.getElementById('aiPrompt');
+      if (!btn || !pre) return;
+      btn.addEventListener('click', function () {
+        var text = pre.innerText;
+        var done = function () {
+          btn.textContent = 'Copied ✓';
+          btn.classList.add('copied');
+          setTimeout(function () { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 2000);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(done, function () { fallback(text, done); });
+        } else { fallback(text, done); }
+      });
+      function fallback(text, done) {
+        var t = document.createElement('textarea');
+        t.value = text; t.setAttribute('readonly', '');
+        t.style.position = 'absolute'; t.style.left = '-9999px';
+        document.body.appendChild(t); t.select();
+        try { document.execCommand('copy'); done(); } catch (e) {}
+        document.body.removeChild(t);
+      }
+    })();
+  </script>
 </body>
 </html>
