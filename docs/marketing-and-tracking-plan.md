@@ -21,6 +21,25 @@ Rule: **no dollar of ad spend and no hour of SEO goes out until tracking is live
 ### A2. The ONE number that matters
 **Cost per WhatsApp lead** (a tour enquiry). Everything else is diagnostic. Secondary: lead → reply → tour booked → sale.
 
+### A2b. Anchor your kill line to YOUR economics (do this first — fixes audit #1)
+A "good" or "bad" cost-per-lead is meaningless until you know what a customer is worth. Plug in two numbers:
+
+```
+Max you can pay per lead  =  commission per sale  ×  lead→sale close rate  ×  0.5
+                             (the 0.5 keeps roughly half as profit/margin buffer)
+```
+
+**Fill these in:**
+- Commission per Nirvana sale: **S$[____]**   ← ask/estimate
+- Lead → sale close rate: **[____]%**   ← rough guess is fine (e.g. 1 in 20 = 5%)
+
+**Worked example** (illustrative only — replace with your real numbers):
+- Commission S$2,000 × close rate 5% (1 in 20) × 0.5 = **max ~S$50 per lead** and still profitable.
+- Commission S$2,000 × close rate 10% (1 in 10) × 0.5 = **max ~S$100 per lead**.
+- Commission S$800 × close rate 5% × 0.5 = **max ~S$20 per lead** → this offer needs cheap leads to work.
+
+**Then set the kill line at that number**, not the placeholder S$40–50 elsewhere in this doc. If your real max is S$100, don't kill a S$60 channel; if it's S$20, S$60 is already a loss. Everything downstream depends on getting these two numbers right.
+
 ### A3. Define the funnel as tracked events
 ```
 Impressions → Clicks → Landing views → WhatsApp click (LEAD)
