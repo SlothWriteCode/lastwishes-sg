@@ -44,7 +44,7 @@ _Date: 2026-07-04 · Reviewer: honest pre-spend audit_
 ## 🟡 Should-fix (raises results, not blockers)
 
 - **Real domain.** A custom domain (e.g. a cheap `.sg`/`.com`) converts and ranks better than a `*.vercel.app`/`*.netlify.app` URL, and looks legitimate in the ad. Google allows subdomains, but a real domain is worth the ~S$10–40/yr.
-- **Positioning honesty.** If you are ultimately steering people to one provider (e.g. Nirvana), the "independent" framing must stay truthful — describe yourself accurately (e.g. "I help families compare, and I also work with X") or you risk a misrepresentation problem and broken trust. Decide this now; it affects the ad copy.
+- **Positioning honesty — RESOLVED (2026-07-04).** Owner is a Nirvana Memorial Garden agent. The site now discloses this honestly (all "independent" self-descriptions changed to "honest Nirvana agent"), and the **main CTA is a free private Nirvana tour**, with the checklist as the softer secondary path. Other/public options are presented only from **official sources** (NEA, MyLegacy, CCCS) — the owner does not vouch for or represent competitors, which removes liability and keeps the disclosure truthful.
 - **Light analytics.** Even a privacy-simple analytics tool tells you scroll depth / which page they bounce on. Optional but useful.
 - **One thank-you step.** After the WhatsApp click, a simple confirmation/thank-you page makes conversion tracking cleaner and reassures the user.
 - **Proof over time.** Add a testimonial or "families I've helped" line once you have one. Not now, but plan for it.

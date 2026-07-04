@@ -2,6 +2,8 @@
 
 _Date: 2026-07-04 · Goal of first test: validate that cold searchers click AND opt in on WhatsApp at a sane cost — NOT to make money in week one._
 
+> **Primary conversion (updated):** a **WhatsApp "tour enquiry"** (free private Nirvana tour) is now the main conversion to track; the checklist opt-in is the softer secondary conversion. Track both, but optimise toward tour enquiries. Ad copy should offer the **free private tour** as the lead hook, with the checklist as the low-commitment alternative. Disclose "Nirvana agent" honestly in ad copy where natural — do not imply neutrality.
+
 > **Important framing:** We are **not competing on price.** Some of the keywords below are price-searches (e.g. "columbarium price") because that's what worried families type — but the ad and landing page **redirect them away from price** to calm right-fit guidance. We meet them where they search, then reframe. See "Non-price angle" below.
 
 ---
