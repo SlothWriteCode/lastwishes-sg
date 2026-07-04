@@ -20,9 +20,16 @@ _Date: 2026-07-04 · Reviewer: honest pre-spend audit_
 
 ## 🔴 Blockers — fix BEFORE spending a cent
 
-1. **No real human identity = trust death for a grief/money purchase.**
-   Right now it's an anonymous "Family Wishes SG" with a placeholder silhouette. Cold visitors handing over their parents' funeral decisions will not message a faceless page.
-   **Fix:** real photo, real first name, one line of who you are / why you do this. This is the single highest-leverage conversion fix on the whole site.
+1. **Trust proof on a cold page (owner has chosen NOT to use a personal photo/name).**
+   A real face converts best, but the owner has decided against it — respected. The job then is to earn trust *without* a face, using signals SG consumers respond to:
+   **Fix (face-free path):**
+   - A credible **brand identity** (proper name + the leaf logo) presented as a service, not "some guy".
+   - **A registered business + UEN/ACRA number** shown in the footer — one of the strongest trust signals in Singapore, no face required. (Register via ACRA BizFile if not done.)
+   - **WhatsApp Business** profile (business name, hours, greeting) so the first reply looks professional.
+   - **Authority citations** already present (CCCS, CASE, MyLegacy, NEA) — lean into these.
+   - **"What to expect" assurance block** (done): independent, no sales calls, replies within the hour, you stay in control.
+   - Add **real testimonials/reviews** later (no face needed — first name + situation is enough).
+   This stack can carry trust on its own; the face is a bonus we're deliberately skipping.
 
 2. **No conversion tracking = flying blind, guaranteed wasted budget.**
    A `wa.me` click is invisible to Google Ads by default. Without it you cannot see which keyword or ad produced a lead, so you can't cut losers or scale winners — you'll just burn the SGD 100–300 and learn nothing.
@@ -68,7 +75,8 @@ Rough, to be confirmed with Google Keyword Planner:
 
 ## Fix checklist (in priority order)
 
-- [ ] Add real photo + name + one-line bio to the "real person" section
+- [x] Face-free trust block added ("what to expect" assurances)
+- [ ] Add UEN/ACRA number + set up WhatsApp Business profile
 - [ ] Add Google tag + WhatsApp-click conversion tracking
 - [ ] Export checklist to a sendable PDF + set WhatsApp Business auto-reply/quick-reply
 - [ ] Decide + state the "independent vs affiliated" positioning honestly
