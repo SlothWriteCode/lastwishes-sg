@@ -9,7 +9,7 @@ Calm, independent lead-generation site for Singapore families planning columbari
 - `styles.css` — shared styling
 
 ## Before going live — 2 edits
-1. **WhatsApp number:** replace every `65XXXXXXXX` in the three HTML files with your real number (country code, no `+`, no spaces).
+1. **WhatsApp number:** WhatsApp number is set to `6590107246` (+65 90107246).
 2. **Brand name:** "Family Wishes SG" is a placeholder — rename in the header/footer of each page if you want.
 
 ## Positioning guardrails (from the vault)
