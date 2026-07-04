@@ -235,6 +235,8 @@ footer.site-foot { background: var(--surface); border-top: 1px solid var(--line)
 footer.site-foot .wrap { padding: 34px 24px; font-size: 0.88rem; color: var(--ink-soft); display: flex; flex-wrap: wrap; gap: 10px 24px; align-items: center; justify-content: space-between; }
 footer.site-foot a { color: var(--pine); text-decoration: none; }
 footer.site-foot a:hover { text-decoration: underline; }
+footer.site-foot .foot-fine { padding-top: 0; padding-bottom: 30px; display: block; }
+footer.site-foot .foot-fine small { font-size: 0.8rem; color: var(--ink-faint); line-height: 1.6; }
 
 /* ---------------- Sticky mobile WhatsApp ---------------- */
 .sticky-wa { display: none; }
