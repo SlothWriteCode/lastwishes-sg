@@ -38,7 +38,28 @@ Max you can pay per lead  =  commission per sale  ×  lead→sale close rate  ×
 - Commission S$2,000 × close rate 10% (1 in 10) × 0.5 = **max ~S$100 per lead**.
 - Commission S$800 × close rate 5% × 0.5 = **max ~S$20 per lead** → this offer needs cheap leads to work.
 
-**Then set the kill line at that number**, not the placeholder S$40–50 elsewhere in this doc. If your real max is S$100, don't kill a S$60 channel; if it's S$20, S$60 is already a loss. Everything downstream depends on getting these two numbers right.
+**Then set the kill line at that number**, not the placeholder S$40–50 elsewhere in this doc. If your real max is S$100, don't kill a S$60 channel; if it's S$20, S$60 is already a loss.
+
+### A2c. YOUR numbers (owner input: close rate 5%; commission varies by product)
+Because commission depends on what sells, here's the ceiling **at a 5% close rate**, per *serious* lead (a real WhatsApp conversation from the lead log — not a raw click):
+
+| Avg commission / sale | Break-even per lead (5%) | **Profitable target per lead (×0.5)** |
+|---|---|---|
+| S$500 | S$25 | **≤ S$12** |
+| S$1,000 | S$50 | **≤ S$25** |
+| S$2,000 | S$100 | **≤ S$50** |
+| S$3,000 | S$150 | **≤ S$75** |
+| S$5,000 | S$250 | **≤ S$125** |
+
+**What this means for you:**
+- **Cheap niches (low commission) barely support paid ads** — you'd need very cheap leads. The **higher-value sales are where ads clearly pay off.** So in your lead log, note *which product* each lead is interested in; a lead leaning toward an expensive niche is worth far more.
+- **Conservative planning number for the first test:** assume ~S$1,000–1,500 average commission → aim to keep **cost per serious lead under ~S$25–35**. Translate to clicks: if ~1 in 8–10 clicks becomes a serious lead, your **max CPC ≈ S$3** — matches the S$2–2.50 cap in the ads plan.
+- **The first test's real job:** discover your *actual* average sale value and close rate. Plan cautious, then let the lead log replace these estimates with real ones and reset the kill line.
+
+### A2d. Recommended kill line for the first paid test
+- Judge only after **~50–100 clicks** (fewer is statistical noise).
+- **Pause** a keyword/ad if cost per *serious* lead is clearly above your target (≈ S$35 on the conservative assumption) and not improving.
+- **Hard stop / fix the page** if **~80–100 clicks produce 0 serious leads** — that's a trust/offer problem, not budget.
 
 ### A3. Define the funnel as tracked events
 ```
